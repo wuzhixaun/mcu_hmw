@@ -1,0 +1,342 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 RSC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT62F08X ]
+[d frameptr 6 ]
+"62 E:\c\CCompiler\Compiler\Compiler\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\c\CCompiler\Compiler\Compiler\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"61 E:\code\hmw\Learn\Learn.C
+[v _ISR ISR `II(v  1 e 1 0 ]
+"132
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+"146
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+"163
+[v _DelayS DelayS `(v  1 e 1 0 ]
+"201
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+"297
+[v _Write_Max7219_byte Write_Max7219_byte `(v  1 e 1 0 ]
+"320
+[v _Write_Max7219 Write_Max7219 `(v  1 e 1 0 ]
+"334
+[v _Init_MAX7219 Init_MAX7219 `(v  1 e 1 0 ]
+"530
+[v _Init_DS18B20 Init_DS18B20 `(v  1 e 1 0 ]
+"548
+[v _ReadOneChar ReadOneChar `(uc  1 e 1 0 ]
+"567
+[v _WriteOneChar WriteOneChar `(v  1 e 1 0 ]
+"584
+[v _ReadTemperature ReadTemperature `(ui  1 e 2 0 ]
+"632
+[v _main main `(v  1 e 1 0 ]
+"99 E:\c\CCompiler\Compiler\Compiler\data\include\FT62F08X.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"108
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"125
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"132
+[v _RA5 RA5 `VEb  1 e 0 @101 ]
+"176
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"181
+[v _RB3 RB3 `VEb  1 e 0 @107 ]
+"227
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"234
+[v _RC5 RC5 `VEb  1 e 0 @117 ]
+"235
+[v _RC6 RC6 `VEb  1 e 0 @118 ]
+"278
+[v _PORTD PORTD `VEuc  1 e 1 @15 ]
+"495
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"502
+[v _TRISA5 TRISA5 `VEb  1 e 0 @1125 ]
+"525
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"530
+[v _TRISB3 TRISB3 `VEb  1 e 0 @1131 ]
+"555
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"562
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1141 ]
+"563
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1142 ]
+"584
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"752
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"783
+[v _PCKEN PCKEN `VEuc  1 e 1 @154 ]
+"1065
+[v _T4UIE T4UIE `VEb  1 e 0 @2192 ]
+"1077
+[v _T4UIF T4UIF `VEb  1 e 0 @2200 ]
+"1141
+[v _PSRC0 PSRC0 `VEuc  1 e 1 @282 ]
+"1146
+[v _PSRC1 PSRC1 `VEuc  1 e 1 @283 ]
+"1196
+[v _WPUA WPUA `VEuc  1 e 1 @396 ]
+"1225
+[v _WPUB WPUB `VEuc  1 e 1 @397 ]
+"1254
+[v _WPUC WPUC `VEuc  1 e 1 @398 ]
+"1283
+[v _WPUD WPUD `VEuc  1 e 1 @399 ]
+"1399
+[v _ANSELA ANSELA `VEuc  1 e 1 @407 ]
+"1443
+[v _PSINK0 PSINK0 `VEuc  1 e 1 @410 ]
+"1447
+[v _PSINK1 PSINK1 `VEuc  1 e 1 @411 ]
+"1450
+[v _PSINK2 PSINK2 `VEuc  1 e 1 @412 ]
+"1455
+[v _PSINK3 PSINK3 `VEuc  1 e 1 @413 ]
+"1501
+[v _WPDA WPDA `VEuc  1 e 1 @524 ]
+"1531
+[v _WPDB WPDB `VEuc  1 e 1 @525 ]
+"1560
+[v _WPDC WPDC `VEuc  1 e 1 @526 ]
+"1590
+[v _WPDD WPDD `VEuc  1 e 1 @527 ]
+"3928
+[v _ad3nop ad3nop `DCuc  1 e 1 @3 ]
+"28 E:\code\hmw\Learn\Learn.C
+[v _cout cout `ul  1 e 4 0 ]
+"49
+[v _W_TMP W_TMP `VEuc  1 e 1 @112 ]
+"50
+[v _BSR_TMP BSR_TMP `VEuc  1 e 1 @113 ]
+"632
+[v _main main `(v  1 e 1 0 ]
+{
+"653
+} 0
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 8 ]
+"6
+[v ___llmod@divisor divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend dividend `ul  1 p 4 4 ]
+"26
+} 0
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"6
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"31
+} 0
+"584 E:\code\hmw\Learn\Learn.C
+[v _ReadTemperature ReadTemperature `(ui  1 e 2 0 ]
+{
+"588
+[v ReadTemperature@wd wd `ui  1 a 2 11 ]
+[v ReadTemperature@temperature temperature `ui  1 a 2 3 ]
+"587
+[v ReadTemperature@TX TX `uc  1 a 1 10 ]
+[v ReadTemperature@TZ TZ `uc  1 a 1 9 ]
+"586
+[v ReadTemperature@TLV TLV `uc  1 a 1 8 ]
+"587
+[v ReadTemperature@shi shi `uc  1 a 1 7 ]
+[v ReadTemperature@ge ge `uc  1 a 1 6 ]
+[v ReadTemperature@THV THV `uc  1 a 1 5 ]
+"621
+} 0
+"15 E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"26
+} 0
+"6 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 11 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 5 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 7 ]
+"31
+} 0
+"4 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 4 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 3 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 2 ]
+"18
+} 0
+"4 E:\c\CCompiler\Compiler\Compiler\data\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 3 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 1 ]
+"26
+} 0
+"567 E:\code\hmw\Learn\Learn.C
+[v _WriteOneChar WriteOneChar `(v  1 e 1 0 ]
+{
+[v WriteOneChar@dat dat `uc  1 a 1 wreg ]
+"569
+[v WriteOneChar@i i `uc  1 a 1 4 ]
+[v WriteOneChar@temp temp `uc  1 a 1 3 ]
+"567
+[v WriteOneChar@dat dat `uc  1 a 1 wreg ]
+[v WriteOneChar@dat dat `uc  1 a 1 2 ]
+"582
+} 0
+"548
+[v _ReadOneChar ReadOneChar `(uc  1 e 1 0 ]
+{
+"550
+[v ReadOneChar@i i `uc  1 a 1 3 ]
+"551
+[v ReadOneChar@dat dat `uc  1 a 1 2 ]
+"552
+[v ReadOneChar@j j `uc  1 s 1 j ]
+"566
+} 0
+"530
+[v _Init_DS18B20 Init_DS18B20 `(v  1 e 1 0 ]
+{
+"531
+[v Init_DS18B20@presence presence `uc  1 a 1 3 ]
+[v Init_DS18B20@cnt cnt `uc  1 a 1 2 ]
+"545
+} 0
+"201
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+{
+"245
+} 0
+"334
+[v _Init_MAX7219 Init_MAX7219 `(v  1 e 1 0 ]
+{
+"341
+} 0
+"320
+[v _Write_Max7219 Write_Max7219 `(v  1 e 1 0 ]
+{
+[v Write_Max7219@address address `uc  1 a 1 wreg ]
+[v Write_Max7219@address address `uc  1 a 1 wreg ]
+[v Write_Max7219@dat dat `uc  1 p 1 9 ]
+[v Write_Max7219@address address `uc  1 a 1 10 ]
+"325
+} 0
+"297
+[v _Write_Max7219_byte Write_Max7219_byte `(v  1 e 1 0 ]
+{
+[v Write_Max7219_byte@DATA DATA `uc  1 a 1 wreg ]
+"298
+[v Write_Max7219_byte@i i `uc  1 a 1 1 ]
+"297
+[v Write_Max7219_byte@DATA DATA `uc  1 a 1 wreg ]
+"299
+[v Write_Max7219_byte@DATA DATA `uc  1 a 1 0 ]
+"312
+} 0
+"163
+[v _DelayS DelayS `(v  1 e 1 0 ]
+{
+[v DelayS@Time Time `uc  1 a 1 wreg ]
+"165
+[v DelayS@b b `uc  1 a 1 7 ]
+[v DelayS@a a `uc  1 a 1 6 ]
+"163
+[v DelayS@Time Time `uc  1 a 1 wreg ]
+"166
+[v DelayS@Time Time `uc  1 a 1 5 ]
+"173
+} 0
+"146
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+{
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"148
+[v DelayMs@b b `uc  1 a 1 4 ]
+[v DelayMs@a a `uc  1 a 1 3 ]
+"146
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"149
+[v DelayMs@Time Time `uc  1 a 1 2 ]
+"156
+} 0
+"132
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+{
+[v DelayUs@Time Time `uc  1 a 1 wreg ]
+"134
+[v DelayUs@a a `uc  1 a 1 1 ]
+"132
+[v DelayUs@Time Time `uc  1 a 1 wreg ]
+"135
+[v DelayUs@Time Time `uc  1 a 1 0 ]
+"139
+} 0
+"61
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"75
+} 0

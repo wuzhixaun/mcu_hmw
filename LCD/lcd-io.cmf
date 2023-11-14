@@ -1,0 +1,716 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Administrator\AppData\Local\Temp\s604.obj
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 13 13 2 2
+$lcd-io.obj
+cinit CODE 0 15 15 102 2
+text10 CODE 0 117 117 64 2
+cstackCOMMON COMMON 1 70 70 C 1
+cstackBANK0 BANK0 1 29 29 4 1
+intentry CODE 0 4 4 F 2
+bitbssCOMMON COMMON 1 3E0 7C 1 1
+bssBANK0 BANK0 1 20 20 9 1
+_ad3nop_text CODE 0 3 3 1 2
+bssCOMMON COMMON 1 7D 7D 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 2D-6F 1
+RAM A0-EF 1
+RAM 120-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 2D-6F 1
+BANK1 A0-EF 1
+BANK2 120-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 2-2 2
+CONST 17B-1FFF 2
+ENTRY 2-2 2
+ENTRY 17B-1FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 200D-23EF 1
+CODE 2-2 2
+CODE 17B-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+CONFIG 8007-8008 2
+EEDATA F000-F0FF 2
+STRCODE 2-2 2
+STRCODE 17B-1FFF 2
+STRING 2-2 2
+STRING 17B-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$lcd-io.obj
+15 cinit CODE >242:C:\Users\Administrator\AppData\Local\Temp\s604.
+15 cinit CODE >245:C:\Users\Administrator\AppData\Local\Temp\s604.
+15 cinit CODE >284:C:\Users\Administrator\AppData\Local\Temp\s604.
+16 cinit CODE >288:C:\Users\Administrator\AppData\Local\Temp\s604.
+17 cinit CODE >292:C:\Users\Administrator\AppData\Local\Temp\s604.
+18 cinit CODE >293:C:\Users\Administrator\AppData\Local\Temp\s604.
+19 cinit CODE >294:C:\Users\Administrator\AppData\Local\Temp\s604.
+1A cinit CODE >295:C:\Users\Administrator\AppData\Local\Temp\s604.
+1B cinit CODE >296:C:\Users\Administrator\AppData\Local\Temp\s604.
+1C cinit CODE >297:C:\Users\Administrator\AppData\Local\Temp\s604.
+1D cinit CODE >298:C:\Users\Administrator\AppData\Local\Temp\s604.
+1E cinit CODE >299:C:\Users\Administrator\AppData\Local\Temp\s604.
+1F cinit CODE >300:C:\Users\Administrator\AppData\Local\Temp\s604.
+20 cinit CODE >301:C:\Users\Administrator\AppData\Local\Temp\s604.
+21 cinit CODE >307:C:\Users\Administrator\AppData\Local\Temp\s604.
+21 cinit CODE >309:C:\Users\Administrator\AppData\Local\Temp\s604.
+22 cinit CODE >310:C:\Users\Administrator\AppData\Local\Temp\s604.
+23 cinit CODE >311:C:\Users\Administrator\AppData\Local\Temp\s604.
+24 cinit CODE >186:E:\code\hmw\LCD\User_Main.C
+24 cinit CODE >188:E:\code\hmw\LCD\User_Main.C
+26 cinit CODE >189:E:\code\hmw\LCD\User_Main.C
+26 cinit CODE >191:E:\code\hmw\LCD\User_Main.C
+27 cinit CODE >193:E:\code\hmw\LCD\User_Main.C
+2F cinit CODE >194:E:\code\hmw\LCD\User_Main.C
+54 cinit CODE >195:E:\code\hmw\LCD\User_Main.C
+55 cinit CODE >196:E:\code\hmw\LCD\User_Main.C
+57 cinit CODE >76:E:\code\hmw\LCD\User_System.c
+58 cinit CODE >78:E:\code\hmw\LCD\User_System.c
+5B cinit CODE >79:E:\code\hmw\LCD\User_System.c
+5E cinit CODE >80:E:\code\hmw\LCD\User_System.c
+61 cinit CODE >81:E:\code\hmw\LCD\User_System.c
+63 cinit CODE >82:E:\code\hmw\LCD\User_System.c
+64 cinit CODE >83:E:\code\hmw\LCD\User_System.c
+65 cinit CODE >84:E:\code\hmw\LCD\User_System.c
+68 cinit CODE >86:E:\code\hmw\LCD\User_System.c
+6D cinit CODE >87:E:\code\hmw\LCD\User_System.c
+6E cinit CODE >10:E:\code\hmw\LCD\User_System.c
+6F cinit CODE >13:E:\code\hmw\LCD\User_System.c
+74 cinit CODE >15:E:\code\hmw\LCD\User_System.c
+75 cinit CODE >13:E:\code\hmw\LCD\User_System.c
+77 cinit CODE >130:E:\code\hmw\LCD\User_System.c
+77 cinit CODE >132:E:\code\hmw\LCD\User_System.c
+79 cinit CODE >133:E:\code\hmw\LCD\User_System.c
+7B cinit CODE >134:E:\code\hmw\LCD\User_System.c
+7D cinit CODE >135:E:\code\hmw\LCD\User_System.c
+7E cinit CODE >136:E:\code\hmw\LCD\User_System.c
+80 cinit CODE >137:E:\code\hmw\LCD\User_System.c
+81 cinit CODE >88:E:\code\hmw\LCD\User_System.c
+81 cinit CODE >90:E:\code\hmw\LCD\User_System.c
+82 cinit CODE >92:E:\code\hmw\LCD\User_System.c
+85 cinit CODE >93:E:\code\hmw\LCD\User_System.c
+88 cinit CODE >94:E:\code\hmw\LCD\User_System.c
+89 cinit CODE >95:E:\code\hmw\LCD\User_System.c
+8B cinit CODE >96:E:\code\hmw\LCD\User_System.c
+8D cinit CODE >97:E:\code\hmw\LCD\User_System.c
+8F cinit CODE >98:E:\code\hmw\LCD\User_System.c
+91 cinit CODE >100:E:\code\hmw\LCD\User_System.c
+93 cinit CODE >101:E:\code\hmw\LCD\User_System.c
+94 cinit CODE >102:E:\code\hmw\LCD\User_System.c
+94 cinit CODE >104:E:\code\hmw\LCD\User_System.c
+97 cinit CODE >104:E:\code\hmw\LCD\User_System.c
+98 cinit CODE >102:E:\code\hmw\LCD\User_System.c
+99 cinit CODE >138:E:\code\hmw\LCD\User_System.c
+99 cinit CODE >140:E:\code\hmw\LCD\User_System.c
+9C cinit CODE >144:E:\code\hmw\LCD\User_System.c
+9E cinit CODE >145:E:\code\hmw\LCD\User_System.c
+9F cinit CODE >146:E:\code\hmw\LCD\User_System.c
+A2 cinit CODE >147:E:\code\hmw\LCD\User_System.c
+A4 cinit CODE >148:E:\code\hmw\LCD\User_System.c
+A6 cinit CODE >149:E:\code\hmw\LCD\User_System.c
+A8 cinit CODE >151:E:\code\hmw\LCD\User_System.c
+AA cinit CODE >152:E:\code\hmw\LCD\User_System.c
+AC cinit CODE >153:E:\code\hmw\LCD\User_System.c
+AF cinit CODE >154:E:\code\hmw\LCD\User_System.c
+B1 cinit CODE >156:E:\code\hmw\LCD\User_System.c
+B3 cinit CODE >157:E:\code\hmw\LCD\User_System.c
+B5 cinit CODE >159:E:\code\hmw\LCD\User_System.c
+B7 cinit CODE >160:E:\code\hmw\LCD\User_System.c
+B9 cinit CODE >162:E:\code\hmw\LCD\User_System.c
+BB cinit CODE >163:E:\code\hmw\LCD\User_System.c
+BD cinit CODE >164:E:\code\hmw\LCD\User_System.c
+C0 cinit CODE >168:E:\code\hmw\LCD\User_System.c
+C1 cinit CODE >171:E:\code\hmw\LCD\User_System.c
+C3 cinit CODE >172:E:\code\hmw\LCD\User_System.c
+C4 cinit CODE >173:E:\code\hmw\LCD\User_System.c
+C5 cinit CODE >174:E:\code\hmw\LCD\User_System.c
+C6 cinit CODE >175:E:\code\hmw\LCD\User_System.c
+C8 cinit CODE >176:E:\code\hmw\LCD\User_System.c
+C9 cinit CODE >177:E:\code\hmw\LCD\User_System.c
+C9 cinit CODE >179:E:\code\hmw\LCD\User_System.c
+CA cinit CODE >180:E:\code\hmw\LCD\User_System.c
+CC cinit CODE >181:E:\code\hmw\LCD\User_System.c
+CF cinit CODE >183:E:\code\hmw\LCD\User_System.c
+D0 cinit CODE >15:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+D0 cinit CODE >119:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+D4 cinit CODE >120:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+D4 cinit CODE >121:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+D6 cinit CODE >122:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+DE cinit CODE >123:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+E2 cinit CODE >124:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+E6 cinit CODE >125:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+EC cinit CODE >128:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+F4 cinit CODE >129:E:\c\CCompiler\Compiler\Compiler\data\sources\common\Umul32.c
+F5 cinit CODE >218:E:\code\hmw\LCD\User_System.c
+F5 cinit CODE >220:E:\code\hmw\LCD\User_System.c
+F6 cinit CODE >221:E:\code\hmw\LCD\User_System.c
+F8 cinit CODE >222:E:\code\hmw\LCD\User_System.c
+FB cinit CODE >224:E:\code\hmw\LCD\User_System.c
+FD cinit CODE >226:E:\code\hmw\LCD\User_System.c
+FF cinit CODE >228:E:\code\hmw\LCD\User_System.c
+101 cinit CODE >230:E:\code\hmw\LCD\User_System.c
+102 cinit CODE >231:E:\code\hmw\LCD\User_System.c
+103 cinit CODE >232:E:\code\hmw\LCD\User_System.c
+104 cinit CODE >234:E:\code\hmw\LCD\User_System.c
+105 cinit CODE >236:E:\code\hmw\LCD\User_System.c
+106 cinit CODE >239:E:\code\hmw\LCD\User_System.c
+107 cinit CODE >241:E:\code\hmw\LCD\User_System.c
+108 cinit CODE >243:E:\code\hmw\LCD\User_System.c
+109 cinit CODE >245:E:\code\hmw\LCD\User_System.c
+10A cinit CODE >246:E:\code\hmw\LCD\User_System.c
+10B cinit CODE >249:E:\code\hmw\LCD\User_System.c
+10D cinit CODE >250:E:\code\hmw\LCD\User_System.c
+10F cinit CODE >253:E:\code\hmw\LCD\User_System.c
+110 cinit CODE >254:E:\code\hmw\LCD\User_System.c
+111 cinit CODE >256:E:\code\hmw\LCD\User_System.c
+112 cinit CODE >257:E:\code\hmw\LCD\User_System.c
+113 cinit CODE >259:E:\code\hmw\LCD\User_System.c
+115 cinit CODE >260:E:\code\hmw\LCD\User_System.c
+116 cinit CODE >261:E:\code\hmw\LCD\User_System.c
+4 intentry CODE >10:E:\code\hmw\LCD\User_Isr.c
+4 intentry CODE >17:E:\code\hmw\LCD\User_Isr.c
+4 intentry CODE >17:E:\code\hmw\LCD\User_System.c
+5 intentry CODE >10:E:\code\hmw\LCD\User_Isr.c
+7 intentry CODE >17:E:\code\hmw\LCD\User_Isr.c
+E intentry CODE >19:E:\code\hmw\LCD\User_Isr.c
+F intentry CODE >21:E:\code\hmw\LCD\User_Isr.c
+11 intentry CODE >23:E:\code\hmw\LCD\User_Isr.c
+117 text10 CODE >7:E:\code\hmw\LCD\User_Main.C
+117 text10 CODE >9:E:\code\hmw\LCD\User_Main.C
+119 text10 CODE >10:E:\code\hmw\LCD\User_Main.C
+11A text10 CODE >12:E:\code\hmw\LCD\User_Main.C
+11A text10 CODE >13:E:\code\hmw\LCD\User_Main.C
+11C text10 CODE >14:E:\code\hmw\LCD\User_Main.C
+11D text10 CODE >15:E:\code\hmw\LCD\User_Main.C
+11E text10 CODE >17:E:\code\hmw\LCD\User_Main.C
+11F text10 CODE >18:E:\code\hmw\LCD\User_Main.C
+121 text10 CODE >20:E:\code\hmw\LCD\User_Main.C
+123 text10 CODE >22:E:\code\hmw\LCD\User_Main.C
+124 text10 CODE >36:E:\code\hmw\LCD\User_Main.C
+124 text10 CODE >38:E:\code\hmw\LCD\User_Main.C
+126 text10 CODE >40:E:\code\hmw\LCD\User_Main.C
+127 text10 CODE >52:E:\code\hmw\LCD\User_Main.C
+129 text10 CODE >55:E:\code\hmw\LCD\User_Main.C
+129 text10 CODE >56:E:\code\hmw\LCD\User_Main.C
+12B text10 CODE >57:E:\code\hmw\LCD\User_Main.C
+12C text10 CODE >58:E:\code\hmw\LCD\User_Main.C
+12D text10 CODE >60:E:\code\hmw\LCD\User_Main.C
+12E text10 CODE >61:E:\code\hmw\LCD\User_Main.C
+130 text10 CODE >63:E:\code\hmw\LCD\User_Main.C
+133 text10 CODE >78:E:\code\hmw\LCD\User_Main.C
+133 text10 CODE >80:E:\code\hmw\LCD\User_Main.C
+136 text10 CODE >97:E:\code\hmw\LCD\User_Main.C
+136 text10 CODE >98:E:\code\hmw\LCD\User_Main.C
+138 text10 CODE >99:E:\code\hmw\LCD\User_Main.C
+139 text10 CODE >100:E:\code\hmw\LCD\User_Main.C
+13A text10 CODE >102:E:\code\hmw\LCD\User_Main.C
+13B text10 CODE >103:E:\code\hmw\LCD\User_Main.C
+13D text10 CODE >105:E:\code\hmw\LCD\User_Main.C
+140 text10 CODE >121:E:\code\hmw\LCD\User_Main.C
+140 text10 CODE >124:E:\code\hmw\LCD\User_Main.C
+143 text10 CODE >141:E:\code\hmw\LCD\User_Main.C
+143 text10 CODE >142:E:\code\hmw\LCD\User_Main.C
+145 text10 CODE >143:E:\code\hmw\LCD\User_Main.C
+146 text10 CODE >144:E:\code\hmw\LCD\User_Main.C
+147 text10 CODE >146:E:\code\hmw\LCD\User_Main.C
+148 text10 CODE >147:E:\code\hmw\LCD\User_Main.C
+14A text10 CODE >149:E:\code\hmw\LCD\User_Main.C
+14D text10 CODE >164:E:\code\hmw\LCD\User_Main.C
+14D text10 CODE >166:E:\code\hmw\LCD\User_Main.C
+150 text10 CODE >180:E:\code\hmw\LCD\User_Main.C
+152 text10 CODE >10:E:\code\hmw\LCD\User_Main.C
+160 text10 CODE >185:E:\code\hmw\LCD\User_Main.C
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - lcd-io.obj
+__Hspace_0 17B 0 ABS 0 - -
+__Hspace_1 3E1 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_PWM2_Init 1EA 0 CODE 0 cinit lcd-io.obj
+PL2 2C2 0 CODE 0 text10 lcd-io.obj
+PL4 2DC 0 CODE 0 text10 lcd-io.obj
+_GO 4E9 0 ABS 0 - lcd-io.obj
+__Hstrings 0 0 ABS 0 strings -
+_ADON 4E8 0 ABS 0 - lcd-io.obj
+_AFP0 19E 0 ABS 0 - lcd-io.obj
+_AFP1 19F 0 ABS 0 - lcd-io.obj
+_WPDA 20C 0 ABS 0 - lcd-io.obj
+_WPDB 20D 0 ABS 0 - lcd-io.obj
+_WPDC 20E 0 ABS 0 - lcd-io.obj
+_WPUA 18C 0 ABS 0 - lcd-io.obj
+_WPUB 18D 0 ABS 0 - lcd-io.obj
+_WPUC 18E 0 ABS 0 - lcd-io.obj
+___sp 0 0 STACK 2 stack C:\Users\Administrator\AppData\Local\Temp\s604.obj
+_main 48 0 CODE 0 cinit lcd-io.obj
+btemp 7E 0 ABS 0 - lcd-io.obj
+start 26 0 CODE 0 init C:\Users\Administrator\AppData\Local\Temp\s604.obj
+__size_of_main 0 0 ABS 0 - lcd-io.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+?___lmul 70 0 COMMON 1 cstackCOMMON lcd-io.obj
+__size_of_System_Init 0 0 ABS 0 - lcd-io.obj
+_TIM2CR1 30C 0 ABS 0 - lcd-io.obj
+_TIM2EGR 310 0 ABS 0 - lcd-io.obj
+_TIM2IER 30D 0 ABS 0 - lcd-io.obj
+_TIM2SR1 30E 0 ABS 0 - lcd-io.obj
+_TIM2SR2 30F 0 ABS 0 - lcd-io.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__pbitbssCOMMON 3E0 -364 COMMON 1 bitbssCOMMON lcd-io.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\Administrator\AppData\Local\Temp\s604.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\Administrator\AppData\Local\Temp\s604.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\Administrator\AppData\Local\Temp\s604.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\Administrator\AppData\Local\Temp\s604.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\Administrator\AppData\Local\Temp\s604.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\Administrator\AppData\Local\Temp\s604.obj
+_Sm_Code 26 0 BANK0 1 bssBANK0 lcd-io.obj
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+wtemp0 7E 0 ABS 0 - lcd-io.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+__size_of_WDT_INITIAL 0 0 ABS 0 - lcd-io.obj
+__L_ad3nop_text 6 0 CODE 0 _ad3nop_text -
+_Flash_BZ 3E0 -364 COMMON 1 bitbssCOMMON lcd-io.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+_ad3nop_absaddr 3 0 ABS 0 - lcd-io.obj
+__size_of_Delay_Us 0 0 ABS 0 - lcd-io.obj
+_ADCMPH 41B 0 ABS 0 - lcd-io.obj
+_ADCON0 9D 0 ABS 0 - lcd-io.obj
+_ADCON1 9E 0 ABS 0 - lcd-io.obj
+_ADCON2 9F 0 ABS 0 - lcd-io.obj
+_ADCON3 41A 0 ABS 0 - lcd-io.obj
+_ADRESH 9C 0 ABS 0 - lcd-io.obj
+_ADRESL 9B 0 ABS 0 - lcd-io.obj
+_ANSELA 197 0 ABS 0 - lcd-io.obj
+_Get_ADC_Data AE 0 CODE 0 cinit lcd-io.obj
+Delay_Us@a 71 0 COMMON 1 cstackCOMMON lcd-io.obj
+_CKOCON 95 0 ABS 0 - lcd-io.obj
+__Hpa_nodes0 0 0 ABS 0 pa_nodes0 -
+__end_of___lmul 1EA 0 CODE 0 cinit lcd-io.obj
+__end_of_ad3nop 8 0 CODE 0 _ad3nop_text lcd-io.obj
+__Lmaintext 0 0 ABS 0 maintext -
+_adcData 24 0 BANK0 1 bssBANK0 lcd-io.obj
+_INTCON B 0 ABS 0 - lcd-io.obj
+__Lpa_nodes0 0 0 ABS 0 pa_nodes0 -
+_ADC_INITIAL 102 0 CODE 0 cinit lcd-io.obj
+_Time_1ms 27 0 BANK0 1 bssBANK0 lcd-io.obj
+__size_of_Get_ADC_Data 0 0 ABS 0 - lcd-io.obj
+_Delay_Us DC 0 CODE 0 cinit lcd-io.obj
+start_initialization 2A 0 CODE 0 cinit lcd-io.obj
+_OSCCON 99 0 ABS 0 - lcd-io.obj
+__p_ad3nop_text 6 0 CODE 0 _ad3nop_text lcd-io.obj
+_PSINK0 19A 0 ABS 0 - lcd-io.obj
+_PSINK1 19B 0 ABS 0 - lcd-io.obj
+_PSINK2 19C 0 ABS 0 - lcd-io.obj
+_PSINK3 19D 0 ABS 0 - lcd-io.obj
+__end_of_Delay_Us EE 0 CODE 0 cinit lcd-io.obj
+__end_ofPL2 2DC 0 CODE 0 text10 lcd-io.obj
+__end_ofPL4 2F6 0 CODE 0 text10 lcd-io.obj
+__pcstackBANK0 29 0 BANK0 1 cstackBANK0 lcd-io.obj
+_TIM2ARRH 319 0 ABS 0 - lcd-io.obj
+_TIM2ARRL 31A 0 ABS 0 - lcd-io.obj
+__end_of_Get_ADC_Data DC 0 CODE 0 cinit lcd-io.obj
+_TIM2PSCR 318 0 ABS 0 - lcd-io.obj
+_TCKSRC 31F 0 ABS 0 - lcd-io.obj
+_TRISB2 46A 0 ABS 0 - lcd-io.obj
+_TRISB3 46B 0 ABS 0 - lcd-io.obj
+_TRISB4 46C 0 ABS 0 - lcd-io.obj
+_TRISB5 46D 0 ABS 0 - lcd-io.obj
+_UARTEN 4D5 0 ABS 0 - lcd-io.obj
+_WDTCON 97 0 ABS 0 - lcd-io.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Administrator\AppData\Local\Temp\s604.obj
+__end_of_LCD_Flash 2C2 0 CODE 0 text10 lcd-io.obj
+_Time_1s 20 0 BANK0 1 bssBANK0 lcd-io.obj
+?_Get_ADC_Data 72 0 COMMON 1 cstackCOMMON lcd-io.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 22E 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__size_of_LCD_Flash 0 0 ABS 0 - lcd-io.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 0 0 CONFIG 0 config -
+_System_Init EE 0 CODE 0 cinit lcd-io.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 2A 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+_LCD_Flash 22E 0 CODE 0 text10 lcd-io.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 26 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 26 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+___lmul 1A0 0 CODE 0 cinit lcd-io.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+int$flags 7E 0 ABS 0 - lcd-io.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_WDT_INITIAL 192 0 CODE 0 cinit lcd-io.obj
+_ISR 8 0 CODE 0 intentry lcd-io.obj
+_PA0 60 0 ABS 0 - lcd-io.obj
+_PA1 61 0 ABS 0 - lcd-io.obj
+_PB0 68 0 ABS 0 - lcd-io.obj
+_PB1 69 0 ABS 0 - lcd-io.obj
+_PB2 6A 0 ABS 0 - lcd-io.obj
+_PB3 6B 0 ABS 0 - lcd-io.obj
+_PB4 6C 0 ABS 0 - lcd-io.obj
+_PB5 6D 0 ABS 0 - lcd-io.obj
+_PB7 6F 0 ABS 0 - lcd-io.obj
+_PC0 70 0 ABS 0 - lcd-io.obj
+_PC4 74 0 ABS 0 - lcd-io.obj
+_PC5 75 0 ABS 0 - lcd-io.obj
+_PC6 76 0 ABS 0 - lcd-io.obj
+_PD1 79 0 ABS 0 - lcd-io.obj
+_PD2 7A 0 ABS 0 - lcd-io.obj
+_PD3 7B 0 ABS 0 - lcd-io.obj
+__S0 17B 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__end_of_GPIO_Init 192 0 CODE 0 cinit lcd-io.obj
+_ad3nop 6 0 CODE 0 _ad3nop_text lcd-io.obj
+__size_of_GPIO_Init 0 0 ABS 0 - lcd-io.obj
+__end_of_ISR 26 0 CODE 0 intentry lcd-io.obj
+_GPIO_Init 132 0 CODE 0 cinit lcd-io.obj
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Administrator\AppData\Local\Temp\s604.obj
+_Dis_Data 28 0 BANK0 1 bssBANK0 lcd-io.obj
+__size_of___lmul 0 0 ABS 0 - lcd-io.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__ptext10 22E 0 CODE 0 text10 lcd-io.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext 48 0 CODE 0 cinit lcd-io.obj
+__Lbigram 0 0 ABS 0 bigram -
+___lmul@multiplier 70 0 COMMON 1 cstackCOMMON lcd-io.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 0 config -
+_theVoltage 22 0 BANK0 1 bssBANK0 lcd-io.obj
+stackhi 23EF 0 ABS 0 - C:\Users\Administrator\AppData\Local\Temp\s604.obj
+stacklo 200D 0 ABS 0 - C:\Users\Administrator\AppData\Local\Temp\s604.obj
+__end_of_ADC_INITIAL 132 0 CODE 0 cinit lcd-io.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__pbssCOMMON 7D 0 COMMON 1 bssCOMMON lcd-io.obj
+__HbitbssCOMMON 0 0 ABS 0 bitbssCOMMON -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__Lend_init 26 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization 42 0 CODE 0 cinit lcd-io.obj
+_Flash_Code 7D 0 COMMON 1 bssCOMMON lcd-io.obj
+__Hintentry 26 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+Get_ADC_Data@adcChannel 75 0 COMMON 1 cstackCOMMON lcd-io.obj
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__ptext1 1A0 0 CODE 0 cinit lcd-io.obj
+__ptext2 EE 0 CODE 0 cinit lcd-io.obj
+__ptext3 192 0 CODE 0 cinit lcd-io.obj
+__ptext4 1EA 0 CODE 0 cinit lcd-io.obj
+__ptext5 132 0 CODE 0 cinit lcd-io.obj
+__ptext6 102 0 CODE 0 cinit lcd-io.obj
+__ptext7 AE 0 CODE 0 cinit lcd-io.obj
+__ptext8 DC 0 CODE 0 cinit lcd-io.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of_System_Init 102 0 CODE 0 cinit lcd-io.obj
+__end_of__initialization 42 0 CODE 0 cinit lcd-io.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+__Lclrtext 0 0 ABS 0 clrtext -
+___lmul@product 78 0 COMMON 1 cstackCOMMON lcd-io.obj
+___lmul@multiplicand 74 0 COMMON 1 cstackCOMMON lcd-io.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON lcd-io.obj
+__end_of_WDT_INITIAL 1A0 0 CODE 0 cinit lcd-io.obj
+__Hend_init 2A 0 CODE 0 end_init -
+__end_of_main AE 0 CODE 0 cinit lcd-io.obj
+_ADCAL 4EB 0 ABS 0 - lcd-io.obj
+_ADCEN 4D0 0 ABS 0 - lcd-io.obj
+_ADDLY 1F 0 ABS 0 - lcd-io.obj
+_MISC0 11C 0 ABS 0 - lcd-io.obj
+_PCKEN 9A 0 ABS 0 - lcd-io.obj
+_PORTA C 0 ABS 0 - lcd-io.obj
+_PORTB D 0 ABS 0 - lcd-io.obj
+_PORTC E 0 ABS 0 - lcd-io.obj
+_PORTD F 0 ABS 0 - lcd-io.obj
+_PSRC0 11A 0 ABS 0 - lcd-io.obj
+_PSRC1 11B 0 ABS 0 - lcd-io.obj
+_T2UIE 1868 0 ABS 0 - lcd-io.obj
+_T2UIF 1870 0 ABS 0 - lcd-io.obj
+_TRISA 8C 0 ABS 0 - lcd-io.obj
+_TRISB 8D 0 ABS 0 - lcd-io.obj
+_TRISC 8E 0 ABS 0 - lcd-io.obj
+_TRISD 8F 0 ABS 0 - lcd-io.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__H_ad3nop_text 8 0 CODE 0 _ad3nop_text -
+_TIM2CCER1 314 0 ABS 0 - lcd-io.obj
+_TIM2CCER2 315 0 ABS 0 - lcd-io.obj
+_TIM2CCMR1 311 0 ABS 0 - lcd-io.obj
+_TIM2CCMR2 312 0 ABS 0 - lcd-io.obj
+_TIM2CCMR3 313 0 ABS 0 - lcd-io.obj
+_TIM2CCR1H 31B 0 ABS 0 - lcd-io.obj
+_TIM2CCR1L 31C 0 ABS 0 - lcd-io.obj
+_TIM2CCR2H 31D 0 ABS 0 - lcd-io.obj
+_TIM2CCR2L 31E 0 ABS 0 - lcd-io.obj
+_TIM2CCR3H 29E 0 ABS 0 - lcd-io.obj
+_TIM2CCR3L 29F 0 ABS 0 - lcd-io.obj
+_TIM2CNTRH 316 0 ABS 0 - lcd-io.obj
+_TIM2CNTRL 317 0 ABS 0 - lcd-io.obj
+__pintentry 8 0 CODE 0 intentry lcd-io.obj
+__size_of_ISR 0 0 ABS 0 - lcd-io.obj
+__LbitbssCOMMON 0 0 ABS 0 bitbssCOMMON -
+__initialization 2A 0 CODE 0 cinit lcd-io.obj
+__size_of_ADC_INITIAL 0 0 ABS 0 - lcd-io.obj
+__pbssBANK0 20 0 BANK0 1 bssBANK0 lcd-io.obj
+Delay_Us@Time 70 0 COMMON 1 cstackCOMMON lcd-io.obj
+__end_of_PWM2_Init 22E 0 CODE 0 cinit lcd-io.obj
+__size_of_PWM2_Init 0 0 ABS 0 - lcd-io.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cstackCOMMON 1 70 70 E 1
+intentry 0 4 8 177 2
+reset_vec 0 0 0 2 2
+bssBANK0 1 20 20 D 1
+_ad3nop_text 0 3 6 1 2

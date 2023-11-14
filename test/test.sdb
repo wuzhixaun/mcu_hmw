@@ -1,0 +1,36 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 RSC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT62F08X ]
+[d frameptr 6 ]
+"62 E:\c\CCompiler\Compiler\Compiler\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\c\CCompiler\Compiler\Compiler\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"23 E:\code\hmw\test\test.C
+[v _ISR ISR `II(v  1 e 1 0 ]
+"50
+[v _user_isr user_isr `(v  1 e 1 0 ]
+"58
+[v _main main `(i  1 e 2 0 ]
+"3928 E:\c\CCompiler\Compiler\Compiler\data\include\FT62F08X.h
+[v _ad3nop ad3nop `DCuc  1 e 1 @3 ]
+"13 E:\code\hmw\test\test.C
+[v _W_TMP W_TMP `VEuc  1 e 1 @112 ]
+"14
+[v _BSR_TMP BSR_TMP `VEuc  1 e 1 @113 ]
+"58
+[v _main main `(i  1 e 2 0 ]
+{
+"60
+} 0
+"23
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"49
+} 0
+"50
+[v _user_isr user_isr `(v  1 e 1 0 ]
+{
+"52
+} 0

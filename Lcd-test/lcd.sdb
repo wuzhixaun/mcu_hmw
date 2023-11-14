@@ -1,0 +1,268 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 RSC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT62F08X ]
+[d frameptr 6 ]
+"62 E:\c\CCompiler\Compiler\Compiler\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\c\CCompiler\Compiler\Compiler\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 E:\code\hmw\Lcd-test\Lcd.C
+[v _LCD_Flash LCD_Flash `(v  1 e 1 0 ]
+"52
+[v _ISR ISR `II(v  1 e 1 0 ]
+"67
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+"116
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+"130
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+"164
+[v _Time2Initial Time2Initial `(v  1 e 1 0 ]
+"406
+[v _main main `(v  1 e 1 0 ]
+"99 E:\c\CCompiler\Compiler\Compiler\data\include\FT62F08X.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"108
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"125
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"176
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"192
+[v _PB5 PB5 `VEb  1 e 0 @109 ]
+"193
+[v _PB6 PB6 `VEb  1 e 0 @110 ]
+"227
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"278
+[v _PORTD PORTD `VEuc  1 e 1 @15 ]
+"495
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"525
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"529
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1130 ]
+"530
+[v _TRISB3 TRISB3 `VEb  1 e 0 @1131 ]
+"531
+[v _TRISB4 TRISB4 `VEb  1 e 0 @1132 ]
+"532
+[v _TRISB5 TRISB5 `VEb  1 e 0 @1133 ]
+"555
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"584
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"632
+[v _CKOCON CKOCON `VEuc  1 e 1 @149 ]
+"752
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"783
+[v _PCKEN PCKEN `VEuc  1 e 1 @154 ]
+"1141
+[v _PSRC0 PSRC0 `VEuc  1 e 1 @282 ]
+"1146
+[v _PSRC1 PSRC1 `VEuc  1 e 1 @283 ]
+"1196
+[v _WPUA WPUA `VEuc  1 e 1 @396 ]
+"1225
+[v _WPUB WPUB `VEuc  1 e 1 @397 ]
+"1229
+[v _WPUB2 WPUB2 `VEb  1 e 0 @3178 ]
+"1230
+[v _WPUB3 WPUB3 `VEb  1 e 0 @3179 ]
+"1231
+[v _WPUB4 WPUB4 `VEb  1 e 0 @3180 ]
+"1232
+[v _WPUB5 WPUB5 `VEb  1 e 0 @3181 ]
+"1254
+[v _WPUC WPUC `VEuc  1 e 1 @398 ]
+"1283
+[v _WPUD WPUD `VEuc  1 e 1 @399 ]
+"1399
+[v _ANSELA ANSELA `VEuc  1 e 1 @407 ]
+"1443
+[v _PSINK0 PSINK0 `VEuc  1 e 1 @410 ]
+"1447
+[v _PSINK1 PSINK1 `VEuc  1 e 1 @411 ]
+"1450
+[v _PSINK2 PSINK2 `VEuc  1 e 1 @412 ]
+"1455
+[v _PSINK3 PSINK3 `VEuc  1 e 1 @413 ]
+"1501
+[v _WPDA WPDA `VEuc  1 e 1 @524 ]
+"1531
+[v _WPDB WPDB `VEuc  1 e 1 @525 ]
+"1535
+[v _WPDB2 WPDB2 `VEb  1 e 0 @4202 ]
+"1536
+[v _WPDB3 WPDB3 `VEb  1 e 0 @4203 ]
+"1537
+[v _WPDB4 WPDB4 `VEb  1 e 0 @4204 ]
+"1538
+[v _WPDB5 WPDB5 `VEb  1 e 0 @4205 ]
+"1560
+[v _WPDC WPDC `VEuc  1 e 1 @526 ]
+"1590
+[v _WPDD WPDD `VEuc  1 e 1 @527 ]
+"2177
+[v _TIM2CCR3H TIM2CCR3H `VEuc  1 e 1 @670 ]
+"2181
+[v _TIM2CCR3L TIM2CCR3L `VEuc  1 e 1 @671 ]
+"2188
+[v _TIM2CR1 TIM2CR1 `VEuc  1 e 1 @780 ]
+"2211
+[v _TIM2IER TIM2IER `VEuc  1 e 1 @781 ]
+"2213
+[v _T2UIE T2UIE `VEb  1 e 0 @6248 ]
+"2232
+[v _T2UIF T2UIF `VEb  1 e 0 @6256 ]
+"2482
+[v _TIM2PSCR TIM2PSCR `VEuc  1 e 1 @792 ]
+"2503
+[v _TIM2ARRH TIM2ARRH `VEuc  1 e 1 @793 ]
+"2507
+[v _TIM2ARRL TIM2ARRL `VEuc  1 e 1 @794 ]
+"2511
+[v _TIM2CCR1H TIM2CCR1H `VEuc  1 e 1 @795 ]
+"2515
+[v _TIM2CCR1L TIM2CCR1L `VEuc  1 e 1 @796 ]
+"2519
+[v _TIM2CCR2H TIM2CCR2H `VEuc  1 e 1 @797 ]
+"2523
+[v _TIM2CCR2L TIM2CCR2L `VEuc  1 e 1 @798 ]
+"2527
+[v _TCKSRC TCKSRC `VEuc  1 e 1 @799 ]
+"3928
+[v _ad3nop ad3nop `DCuc  1 e 1 @3 ]
+"54 E:\code\hmw\Lcd-test\User_Const.h
+[v _BZ_1A BZ_1A `VEb  1 e 0 0 ]
+"55
+[v _BZ_1B BZ_1B `VEb  1 e 0 0 ]
+"56
+[v _BZ_1C BZ_1C `VEb  1 e 0 0 ]
+"57
+[v _BZ_1D BZ_1D `VEb  1 e 0 0 ]
+"58
+[v _BZ_1E BZ_1E `VEb  1 e 0 0 ]
+"59
+[v _BZ_1F BZ_1F `VEb  1 e 0 0 ]
+"60
+[v _BZ_1G BZ_1G `VEb  1 e 0 0 ]
+"62
+[v _BZ_2A BZ_2A `VEb  1 e 0 0 ]
+"63
+[v _BZ_2B BZ_2B `VEb  1 e 0 0 ]
+"64
+[v _BZ_2C BZ_2C `VEb  1 e 0 0 ]
+"65
+[v _BZ_2D BZ_2D `VEb  1 e 0 0 ]
+"66
+[v _BZ_2E BZ_2E `VEb  1 e 0 0 ]
+"67
+[v _BZ_2F BZ_2F `VEb  1 e 0 0 ]
+"68
+[v _BZ_2G BZ_2G `VEb  1 e 0 0 ]
+"70
+[v _BZ_3A BZ_3A `VEb  1 e 0 0 ]
+"71
+[v _BZ_3B BZ_3B `VEb  1 e 0 0 ]
+"72
+[v _BZ_3C BZ_3C `VEb  1 e 0 0 ]
+"73
+[v _BZ_3D BZ_3D `VEb  1 e 0 0 ]
+"74
+[v _BZ_3E BZ_3E `VEb  1 e 0 0 ]
+"75
+[v _BZ_3F BZ_3F `VEb  1 e 0 0 ]
+"76
+[v _BZ_3G BZ_3G `VEb  1 e 0 0 ]
+"78
+[v _BZ_4A BZ_4A `VEb  1 e 0 0 ]
+"79
+[v _BZ_4B BZ_4B `VEb  1 e 0 0 ]
+"80
+[v _BZ_4C BZ_4C `VEb  1 e 0 0 ]
+"81
+[v _BZ_4D BZ_4D `VEb  1 e 0 0 ]
+"82
+[v _BZ_4E BZ_4E `VEb  1 e 0 0 ]
+"83
+[v _BZ_4F BZ_4F `VEb  1 e 0 0 ]
+"84
+[v _BZ_4G BZ_4G `VEb  1 e 0 0 ]
+"86
+[v _BZ_5A BZ_5A `VEb  1 e 0 0 ]
+"87
+[v _BZ_5B BZ_5B `VEb  1 e 0 0 ]
+"88
+[v _BZ_5C BZ_5C `VEb  1 e 0 0 ]
+"89
+[v _BZ_5D BZ_5D `VEb  1 e 0 0 ]
+"90
+[v _BZ_5E BZ_5E `VEb  1 e 0 0 ]
+"91
+[v _BZ_5F BZ_5F `VEb  1 e 0 0 ]
+"92
+[v _BZ_5G BZ_5G `VEb  1 e 0 0 ]
+"94
+[v _BZ_T1 BZ_T1 `VEb  1 e 0 0 ]
+"95
+[v _BZ_T2 BZ_T2 `VEb  1 e 0 0 ]
+"96
+[v _BZ_T3 BZ_T3 `VEb  1 e 0 0 ]
+"98
+[v _BZ_S1 BZ_S1 `VEb  1 e 0 0 ]
+"99
+[v _BZ_S2 BZ_S2 `VEb  1 e 0 0 ]
+"100
+[v _BZ_S3 BZ_S3 `VEb  1 e 0 0 ]
+"101
+[v _BZ_S4 BZ_S4 `VEb  1 e 0 0 ]
+"102
+[v _BZ_S5 BZ_S5 `VEb  1 e 0 0 ]
+"103
+[v _BZ_S6 BZ_S6 `VEb  1 e 0 0 ]
+"104
+[v _BZ_S7 BZ_S7 `VEb  1 e 0 0 ]
+"105
+[v _BZ_S8 BZ_S8 `VEb  1 e 0 0 ]
+"106
+[v _BZ_S9 BZ_S9 `VEb  1 e 0 0 ]
+"107
+[v _BZ_S10 BZ_S10 `VEb  1 e 0 0 ]
+"108
+[v _BZ_S11 BZ_S11 `VEb  1 e 0 0 ]
+"109
+[v _BZ_S12 BZ_S12 `VEb  1 e 0 0 ]
+"110
+[v _BZ_S13 BZ_S13 `VEb  1 e 0 0 ]
+"111
+[v _BZ_S14 BZ_S14 `VEb  1 e 0 0 ]
+"113
+[v _Step Step `VEuc  1 e 1 0 ]
+"406 E:\code\hmw\Lcd-test\Lcd.C
+[v _main main `(v  1 e 1 0 ]
+{
+"415
+} 0
+"164
+[v _Time2Initial Time2Initial `(v  1 e 1 0 ]
+{
+"399
+} 0
+"67
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+{
+"109
+} 0
+"52
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"60
+} 0
+"4
+[v _LCD_Flash LCD_Flash `(v  1 e 1 0 ]
+{
+"49
+} 0
